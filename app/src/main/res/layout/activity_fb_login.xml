@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout">
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_signin_signup" />-->
+   <!-- <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_newlogo"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true" />-->
+
+    <com.facebook.login.widget.LoginButton
+        xmlns:facebook="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/facebook_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        facebook:com_facebook_login_text="              Sign in with Facebook"
+        android:layout_marginLeft="30dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="30dp" />
+
+
+
+    <!--  <Button
+          android:id="@+id/linkedin_login_btn"
+          android:layout_below="@id/google_login_button"
+          android:layout_width="match_parent"
+          android:layout_height="70dp"
+          android:elevation="2dp"
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+          android:background="@drawable/selector_linkedin" />-->
+
+
+
+    <!--
+        <LinearLayout
+            android:id="@+id/linkedin_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/linked_in_corner"
+            android:elevation="2dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/in2" />
+
+            <com.dots.android.widgets.CustomTextViewBook
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="    Join now with LinkedIn"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    -->
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/ic_userprofile"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="-60dp"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="@color/colorWhite"/>
+
+
+    <TextView
+                    android:id="@+id/ProfileName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jennifer Mason"
+                    android:textSize="24sp"
+        android:textColor="@color/colorGray"
+        android:layout_marginTop="76dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/profile_image"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+                    android:id="@+id/ProfileEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="jen_mason@gmail.com"
+                    android:layout_below="@+id/ProfileName"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorGrayLight"/>
+
+
+
+
+
+
+
+</RelativeLayout>
